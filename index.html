@@ -1,0 +1,29 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+	<body>
+		<h4>Meals</h4>
+		<header>
+			<button  class="btn btn-warning" id="cats-btn">Get Meals By Categories</button>
+			<button  class="btn btn-danger" id="area-btn">Get Meals By Area</button>
+			<form id="form" style="display: inline">
+				<input type=text placeholder="search" id="search" style="padding:3%;color:white;">
+			</form>
+			<div class="modal-container hidden">
+				<button class="ml-auto" id="close-btn"><i class="fa fa-times"></i></button>
+				<div class="param-div">
+				</div>
+			</div>
+		</header>
+
+		<main id="main">
+
+			<div id="meal-container" class="row"></div>
+		</main>
+
+		<script src="index.js"></script>
+	</body>
+</html>
